@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a4f2b64.css",
-    "main.js": "/static/js/main.32a33d97.js",
+    "main.css": "/static/css/main.4b37c017.css",
+    "main.js": "/static/js/main.20038bce.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/bg.jpg": "/static/media/bg.ee2922854adec9e72508.jpg",
     "static/media/esp.png": "/static/media/esp.957f69e7a5d0b4151b65.png",
     "static/media/dp2.png": "/static/media/dp2.a0bfcaba3d425503bf14.png",
     "static/media/places.jpg": "/static/media/places.0470b86a072f3c17f475.jpg",
-    "static/media/img.png": "/static/media/img.09bf2f52e87bfb960598.png",
+    "static/media/dp4.png": "/static/media/dp4.303b176635a2fcbf8d8c.png",
     "static/media/waste.png": "/static/media/waste.dc373e329b546e84dd64.png",
     "static/media/bg2.jpg": "/static/media/bg2.f0064c1d9c59fee098f2.jpg",
     "static/media/gpa.png": "/static/media/gpa.10f49a778c716c322e67.png",
+    "static/media/dp7.jpeg": "/static/media/dp7.8b05a3a02011d129d629.jpeg",
     "static/media/dp1.png": "/static/media/dp1.e5fc9b9fbaddcfcda139.png",
     "static/media/goal.jpg": "/static/media/goal.e124244f225b7382edcf.jpg",
     "static/media/tspeed.png": "/static/media/tspeed.5cb2d13c22f9ba4ab841.png",
-    "static/media/23.png": "/static/media/23.7429acdddf8b40d57f4f.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.3a4f2b64.css.map": "/static/css/main.3a4f2b64.css.map",
-    "main.32a33d97.js.map": "/static/js/main.32a33d97.js.map",
+    "main.4b37c017.css.map": "/static/css/main.4b37c017.css.map",
+    "main.20038bce.js.map": "/static/js/main.20038bce.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a4f2b64.css",
-    "static/js/main.32a33d97.js"
+    "static/css/main.4b37c017.css",
+    "static/js/main.20038bce.js"
   ]
 }
