@@ -1,0 +1,15 @@
+.list-element{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+.list-element a {
+    display:inline-flex;
+}
+.universal-scroll-List{
+    display:inline-flex;
+    align-items:center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  flex-flow: wrap;
+}

@@ -1,0 +1,66 @@
+.Footer{
+    color:rgb(143, 9, 74);
+
+    background-color: #0b0b0b;    
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    width:min(80vw,600px);
+    bottom:0;
+    display: flex;
+    backdrop-filter: blur(10px);
+    justify-content: space-around;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+   
+    
+}
+.center{
+   margin:auto;
+
+   width:100%;
+}
+.Footer a{
+    transition: 0.15s;
+    color:whitesmoke;
+    padding: 10px;
+}
+.Footer ul{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    background-color: var(--primary-card-bg);
+}
+.Footer li{
+    padding:0;
+    margin:0;
+}
+.Footer a:hover{
+    transform: scale(1.2);
+}
+a.social {
+    margin: 0 1rem;
+    transition: transform 100ms;
+    display: inline-block;
+  }
+.fa-icon{
+    color:red !important;
+}
+a.social:hover {
+    transform: translateY(-5px);
+  }
+
+.Footer svg path{
+    color:var(--accent-color);
+    opacity: 0.9;
+}
+.Footer a:hover svg path{
+  
+ color:var(--card-hover);
+
+}
+.Footer-container{
+    
+    bottom: 0;
+    margin: auto;
+}

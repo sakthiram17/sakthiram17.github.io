@@ -1,0 +1,83 @@
+.Projects {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.project-header {
+  display: block;
+  background-color: var(--card-bg);
+  box-shadow: 0 0 3px 5px var(--card-box);
+  color: black;
+  font-size: 1.4rem;
+  padding: 1rem 2rem;
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  font-weight: bold;
+}
+:root {
+  --xyz-translate-default: 300%;
+  --xyz-ease-default: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --xyz-stagger-default: 0.1s;
+}
+.square {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+}
+.inline-block {
+  margin: auto;
+  display: inline-block;
+
+  box-sizing: border-box;
+  margin: 4%;
+  margin-bottom: 8%;
+  flex: 0 0 400px;
+  backdrop-filter: blur(0.5rem);
+}
+.pcard {
+  background-color: var(--card-bg);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 4px;
+  border-radius: 10px;
+  padding: 20px;
+  color: var(--primary-text);
+  width: min(1500px, 90vw);
+  margin-bottom: 20px;
+
+  transition: 0.15s;
+  box-sizing: border-box;
+  margin: 4%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+
+  backdrop-filter: blur(0.1rem);
+}
+.p-header {
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.p-para {
+  padding: 1rem;
+  font-weight: 600;
+  border-radius: 0.2rem;
+  background-color: ghostwhite;
+  width: 100%;
+  border: dotted rgb(255, 137, 41) 0.2rem;
+  box-shadow: 0 0.05rem 0.05rem 0.05rem #ccc;
+}
+.p-image {
+  float: left;
+}
+.p-image img {
+  height: 40rem;
+  padding: 3rem;
+  width: 30rem;
+  border-radius: 1rem;
+  float:left;
+}

@@ -1,0 +1,81 @@
+.Resume{
+    background-color: var(--primary-card-bg);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 4px;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: left;
+    margin:auto;
+    margin-top: 100px;
+    color:var(--primary-text);
+    width: min(90%,1200px);
+    justify-content:center;
+
+}
+.Resume ul{
+color:var(--primary-text);
+}
+.Resume ul a{
+    color:rgb(15, 99, 139);
+}
+.Resume li{
+    padding: 5px;
+    font-size: 16px;
+    color:var(--primary-text);
+    
+}
+.listHeader{
+    font-size: 20px;
+    font-weight: bold;
+}
+@media (max-width:600px) {
+    .Resume{
+        width: 95%;
+        padding: 10px;
+        overflow: wrap;
+    }
+    .Resume ul{
+    width: 95%;
+    }
+    .Resume li{
+        width: 95%;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    
+  }
+
+  li {
+    margin-bottom: 2px;
+    text-align: justify;
+    
+  }
+
+  li strong {
+    font-size: 1.2rem;
+    padding: 0rem;
+    color: var(--accent-color);
+    text-align: center;
+
+  }
+
+
+  li .skills-resume {
+    margin-top: 8px;
+    font-size: 0.9rem;
+
+  }
+
+.skills-resume strong{
+    font-size: 1rem;
+}
+.Resume h2{
+    color:white;
+    font-weight: bold;
+    color:var(--accent-color);
+}
+p{
+    text-align: justify;
+}

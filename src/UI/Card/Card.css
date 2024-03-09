@@ -1,0 +1,121 @@
+.CardElement{
+  
+    color:black;
+}
+.CardHeader{
+   
+    color:whitesmoke;
+    font-weight: 900;
+
+}
+a{
+    background-color: rgba(0,0,0,0.15);
+}
+
+.Card{
+    background-color:var(--primary-card-bg);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 4px;
+    border-radius: 10px;
+    padding: 0px;
+    width: min(600px,80vw);
+    margin-bottom: 20px;
+    transition: 0.15s;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    z-index:1;
+    margin:0;
+    padding:1rem;
+    font-size: 1.5rem;
+}
+.CardImage{
+    min-height: 200px;
+    width: min(400px,60vw);
+    padding: 20px;
+    height: fit-content;
+}
+.Card:hover{
+    transform: scale(1.1);
+    background-color:#ff3388d1;
+    color:whitesmoke;
+
+}
+.card-text{
+    text-overflow: ellipsis;
+    text-wrap:wrap;
+    display: inline;
+}
+
+.card-a{
+    text-decoration: none;
+}
+@media (max-width:600px)
+{
+    .Card{
+        margin: auto;
+        margin-top:10%;
+        margin-bottom:10%;
+        width: 90%;
+    }
+}
+
+
+@media (max-width:600px)
+{
+    .Card{
+        margin: auto;
+        margin-top:10%;
+        margin-bottom:10%;
+        width: 90%;
+    }
+    .card-content{
+        display: block;
+    }
+    .card-image{
+       display: block;
+       width: 100%;
+    }
+    .card-text{
+        display: block;
+        ;
+       width: 100%;
+     }
+}
+
+.CardImage {
+    flex-basis: 300px;
+    flex-grow: 1;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.card-text {
+    flex-basis: 100%;
+    padding: 20px;
+    color: #e4e4e4;
+    text-align: justify;
+}
+
+.Card:hover {
+    transform: scale(1.1);
+    background-color: #ff3388d1;
+    color: whitesmoke;
+}
+
+.card-content {
+    display: flex;
+    flex-flow: column wrap;
+    width: fit-content;
+    align-items:center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.new-bg{
+    color:black !important;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+
+}
